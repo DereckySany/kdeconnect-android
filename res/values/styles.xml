@@ -26,6 +26,7 @@
         <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.DayNight</item>
 
+        <item name="materialCardViewStyle">@style/Widget.Material3.CardView.Elevated</item>
     </style>
 
     <style name="KdeConnectTheme" parent="KdeConnectThemeBase" />
