@@ -33,9 +33,6 @@ public class MyApplication extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
 
-        // Material3 Monet
-        DynamicColors.applyToActivitiesIfAvailable(this);
-
         ProcessLifecycleOwner.get().getLifecycle().addObserver(foregroundTracker);
     }
 
