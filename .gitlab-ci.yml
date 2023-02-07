@@ -41,7 +41,7 @@ assembleDebug:
     - ./gradlew assembleDebug
   artifacts:
     paths:
-    - kdeconnect-android/build/outputs/
+    - build/outputs/
 
 debugTests:
   stage: test
