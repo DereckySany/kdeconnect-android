@@ -33,6 +33,7 @@ stages:
 lintDebug:
   stage: build
   script:
+    - ./gradlew generateLicenseReport
     - ./gradlew -Pci --console=plain lintDebug -PbuildDir=lint
 
 assembleDebug:
